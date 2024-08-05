@@ -9,7 +9,8 @@ library(sf)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 #read tweets
-tweets <- read.csv("../outputs/tweets_GEOID.csv")
+tweets <- read.csv("../data/twitter/tweets_zl_GEOID.csv")
+
 
 #county-level variables
 #-----------------------------------------------------------------
@@ -32,20 +33,42 @@ hate_users <- tweets %>%
   group_by(geoid) %>%
   summarise(hateful_users = length(unique(userid)))
 
-#number of truncated tweets
-truncated_tweet_volume <- tweets %>%
+#sentiment
+sent_neg <- tweets %>%
   group_by(geoid) %>%
-  summarise(truncated_tweets = sum(truncated))
+  summarise(sent_neg = mean(neg))
 
-#number of quote tweets
-quote_tweet_volume <- tweets %>%
+sent_neu <- tweets %>%
   group_by(geoid) %>%
-  summarise(quote_tweets = sum(is_quote_status))
+  summarise(sent_neu = mean(neu))
+
+sent_pos <- tweets %>%
+  group_by(geoid) %>%
+  summarise(sent_pos = mean(pos))
+
+sent_compound <- tweets %>%
+  group_by(geoid) %>%
+  summarise(sent_compound = mean(compound))
+
+#sentiment volume
+sent_pos_sum <- tweets %>%
+  group_by(geoid) %>%
+  summarize(sent_pos_sum = sum(pos))
+
+sent_neg_sum <- tweets %>%
+  group_by(geoid) %>%
+  summarize(sent_neg_sum = sum(neg))
+
+sent_neu_sum <- tweets %>%
+  group_by(geoid) %>%
+  summarize(sent_neu_sum = sum(neu))
 
 #temporal variation
-tweets$YMD <- as.Date(tweets$YMD)
-tweets$month <- format(tweets$YMD, "%m")
-tweets$week <- format(tweets$YMD, "%W")
+tweets$postdate <- as.Date(tweets$postdate)
+
+#tweets$postdate <- as.Date(tweets$YMD)
+tweets$month <- format(tweets$postdate, "%m")
+tweets$week <- format(tweets$postdate, "%W")
 
 #monthly
 variation_montly <- tweets %>%
@@ -65,7 +88,7 @@ variation_weekly <- tweets %>%
 #-----------------------------------------------------------------
 
 #read geometries
-df <- st_read("../data/gis/CONUS_counties.shp") %>%
+df <- st_read("../data/gis/tl_2020_us_county.shp") %>%
   subset(., select = c("GEOID"))  
 st_geometry(df) <- NULL
 df$GEOID <- as.integer(df$GEOID)
@@ -74,8 +97,13 @@ df <- left_join(df, tweet_volume, by = c("GEOID" = "geoid")) %>%
   left_join(., hate_counts, by = c("GEOID" = "geoid")) %>%
   left_join(., user_volume, by = c("GEOID" = "geoid")) %>%
   left_join(., hate_users, by = c("GEOID" = "geoid")) %>%
-  left_join(., truncated_tweet_volume, by = c("GEOID" = "geoid")) %>%
-  left_join(., quote_tweet_volume, by = c("GEOID" = "geoid")) %>%
+  left_join(., sent_neg, by = c("GEOID" = "geoid")) %>%
+  left_join(., sent_neu, by = c("GEOID" = "geoid")) %>%
+  left_join(., sent_pos, by = c("GEOID" = "geoid")) %>%
+  left_join(., sent_neg_sum, by = c("GEOID" = "geoid")) %>%
+  left_join(., sent_neu_sum, by = c("GEOID" = "geoid")) %>%
+  left_join(., sent_pos_sum, by = c("GEOID" = "geoid")) %>%
+  left_join(., sent_compound, by = c("GEOID" = "geoid")) %>%
   left_join(., variation_montly, by = c("GEOID" = "geoid")) %>%
   left_join(., variation_weekly, by = c("GEOID" = "geoid"))
 
@@ -83,8 +111,6 @@ df[is.na(df)] <- 0
 
 #save df
 save(df,file="../outputs/tweets.Rda")
-
-
 
 
 

@@ -1,0 +1,59 @@
+Bibliography
+Uniform Crime Reporting Program Data: Hate Crime Data (Record-Type Files),
+United States, 2020
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 38790. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Agarwal, Vikas; Jiang, Wei; Luo, Yuchen; Zou, Hong, "The Real Effect of
+Sociopolitical Racial Animus: Mutual Fund Manager Performance During the
+AAPI Hate." Cologne Centre for Financial Research Working Paper Series. 23-
+05, Working paper. Cologne Centre for Financial Research, Jul 29, 2023.
+Full text PDF: https://www.cfr-cologne.de/download/workingpaper/cfr-23-05.pdf
+
+2. Bozhidarova, Malvina; Chang, Jonathn; Ale-rasool, Aaishah; Liu, Yuxiang;
+Ma, Chongyao; Bertozzi, Andrea L.; Brantingham, P.J.; Lin, Junyuan;
+Krishnagopal, Sanjukta, "Hate Speech and Hate Crimes: A Data-Driven Study
+of Evolving Discourse Around Marginalized Groups." Nov 18, 2023.. DOI:
+10.48550/arXiv.2311.11163
+Full text PDF: https://arxiv.org/pdf/2311.11163.pdf
+
+3. Carr, Joel, "BLM Protests and Racial Hate Crime in the United States."
+Research Paper 2022-008. Antwerp, Belgium: University of Belgium, Dec 2022.
+Full text PDF: https://arxiv.org/pdf/2311.11163.pdf
+
+4. Carr, Joel, "Essays on Causes of Hate Crime: The Effects of the E.U.
+Referendum, COVID-19, and Black Lives Matter on Hate Crime." Dissertation,
+University of Antwerp, 2023.
+Full text PDF: https://repository.uantwerpen.be/docman/irua/dc50aa/196943.pdf
+
+5. Guha, Induleka, "Empirical Essays on Bias-Motivated Behaviour."
+Dissertation, Purdue University, 2023.
+Abstract: https://hammer.purdue.edu/articles/thesis/Empirical_Essays_on_Bias-motivated_Behaviour/23724063
+
+6. Holder, Eaven, "The convergence of hate: An analysis of UCR-NCVS hate
+crime trends, 2003 to 2020." Crime and Delinquency. in press 2022,. DOI:
+10.1177/00111287221131001
+Abstract: https://hammer.purdue.edu/articles/thesis/Empirical_Essays_on_Bias-motivated_Behaviour/23724063
+
+7. Levin, Brian; Nolan, James; Perst, Kiana, "U.S. hate crime trends: What
+disaggregation of three decades of data reveals about a changing threat and
+an invisible record." Journal of Criminal Law and Criminology. 2023, 112,
+(4), 749 - 800.
+Abstract: https://scholarlycommons.law.northwestern.edu/jclc/vol112/iss4/3/
+Full text PDF: https://scholarlycommons.law.northwestern.edu/cgi/viewcontent.cgi?article=7732&context=jclc
+
+8. Liu, Joyce Z., "The Impacts of Anti-Asian Discrimination on Recent Asian
+American Voting Behavior: Do Anti-Asian, Native Hawaiian, and Pacific
+Islander Violence and Personal Experiences of Discrimination Motivate Asian
+American Turnout in Federal General Elections Between 2000 and 2020?."
+Thesis, Columbia University, 2022.
+Abstract: https://scholarlycommons.law.northwestern.edu/jclc/vol112/iss4/3/
+Full text PDF: https://scholarlycommons.law.northwestern.edu/cgi/viewcontent.cgi?article=7732&context=jclc

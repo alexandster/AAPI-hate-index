@@ -1,0 +1,76 @@
+File Manifest for ICPSR 38798
+
+United States Department of Justice. Federal Bureau of Investigation.
+Uniform Crime Reporting Program Data: Hate Crime Data (Record-Type Files),
+United States, 2021. ICPSR38798-v1. Ann Arbor, MI: Inter-university
+Consortium for Political and Social Research [distributor], 2023-12-12.
+http://doi.org/10.3886/ICPSR38798.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    38798-descriptioncitation.pdf       -       -         -       2023-12-12  -
+
+    38798-related_literature.txt        -       -         -       daily       -
+
+    38798-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Batch Header File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    38798-0001-Codebook-ICPSR.pdf       -       -         -       2023-12-12  bd6306480d576edd8a802a9da99b29c2
+
+    38798-0001-Data.dta                 -       25,298    54      2023-12-12  a1b03cfcba9ddc3bbaa17dce37b696a0
+
+    38798-0001-Data.rda                 -       25,298    54      2023-12-12  feb9d2abb7192d606ad29f570e3b8fff
+
+    38798-0001-Data.sav                 -       25,298    54      2023-12-12  8869c529f01e99c6190910286638f3d4
+
+    38798-0001-Data.stc                 -       25,298    54      2023-12-12  beddfa7ab7973b107b285385b0b53b65
+
+    38798-0001-Data.tsv                 -       25,298    54      2023-12-12  2c579665f6cfff929cf80188a5b24bbb
+
+    38798-0001-Data.txt                 203     25,298    54      2023-12-12  761914d62789f500a94e7295ef42610a
+
+    38798-0001-Setup.dct                -       -         -       2023-12-12  fb7c4fcb8d2c23b6a86220e7d7312435
+
+    38798-0001-Setup.do                 -       -         -       2023-12-12  3129cec89628c1ff6c9e24836070be79
+
+    38798-0001-Setup.sas                -       -         -       2023-12-12  452da08b74a9fbc6cefc11e14cb3625f
+
+    38798-0001-Setup.sps                -       -         -       2023-12-12  58f75926fef6515211b6ad1fde560a5a
+
+
+DS0002 Incident Record File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    38798-0002-Codebook-ICPSR.pdf       -       -         -       2023-12-12  21feb432bfc18eb7ec0acacf674cd99b
+
+    38798-0002-Data.dta                 -       10,959    224     2023-12-12  b93d6c9b2b4f7a421b05e893632145f6
+
+    38798-0002-Data.rda                 -       10,959    224     2023-12-12  a3708e234c27a2009b92530bf1595814
+
+    38798-0002-Data.sav                 -       10,959    224     2023-12-12  4c146812b7e7cbb9733b8c85c0e1a030
+
+    38798-0002-Data.stc                 -       10,959    224     2023-12-12  f18d363624b1ca0c41c49944aca995d7
+
+    38798-0002-Data.tsv                 -       10,959    224     2023-12-12  a3973f3fad9d85a910877493523f71b1
+
+    38798-0002-Data.txt                 450     10,959    224     2023-12-12  ca0860ebae5043bc0202bbb4e72e3c57
+
+    38798-0002-Setup.dct                -       -         -       2023-12-12  9308ff8f951ecd1f377cea044f2973b4
+
+    38798-0002-Setup.do                 -       -         -       2023-12-12  2e69130fae85dcf543a4263755ff15f6
+
+    38798-0002-Setup.sas                -       -         -       2023-12-12  677a34d94486a163e6ad6c9064e55b08
+
+    38798-0002-Setup.sps                -       -         -       2023-12-12  e2343d645e357257231715aeb5e0fd89
+

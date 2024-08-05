@@ -1,0 +1,33 @@
+Bibliography
+Uniform Crime Reporting Program Data: Hate Crime Data (Record-Type Files),
+United States, 2021
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 38798. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Agarwal, Vikas; Jiang, Wei; Luo, Yuchen; Zou, Hong, "The Real Effect of
+Sociopolitical Racial Animus: Mutual Fund Manager Performance During the
+AAPI Hate." Cologne Centre for Financial Research Working Paper Series. 23-
+05, Working paper. Cologne Centre for Financial Research, Jul 29, 2023.
+Full text PDF: https://www.cfr-cologne.de/download/workingpaper/cfr-23-05.pdf
+
+2. Bozhidarova, Malvina; Chang, Jonathn; Ale-rasool, Aaishah; Liu, Yuxiang;
+Ma, Chongyao; Bertozzi, Andrea L.; Brantingham, P.J.; Lin, Junyuan;
+Krishnagopal, Sanjukta, "Hate Speech and Hate Crimes: A Data-Driven Study
+of Evolving Discourse Around Marginalized Groups." Nov 18, 2023.. DOI:
+10.48550/arXiv.2311.11163
+Full text PDF: https://arxiv.org/pdf/2311.11163.pdf
+
+3. Levin, Brian; Nolan, James; Perst, Kiana, "U.S. hate crime trends: What
+disaggregation of three decades of data reveals about a changing threat and
+an invisible record." Journal of Criminal Law and Criminology. 2023, 112,
+(4), 749 - 800.
+Abstract: https://scholarlycommons.law.northwestern.edu/jclc/vol112/iss4/3/
+Full text PDF: https://scholarlycommons.law.northwestern.edu/cgi/viewcontent.cgi?article=7732&context=jclc
