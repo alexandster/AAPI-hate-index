@@ -1,4 +1,4 @@
-This repository contains all codes and most data for creating a county-level anti-Asian racism area measure.
+This repository contains all codes and most data for creating a county-level anti-Asian area racism index (AAARI).
 
 URL:
 [https://osf.io/preprints/socarxiv/n5tpw](https://doi.org/10.31235/osf.io/n5tpw)
